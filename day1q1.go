@@ -40,8 +40,8 @@ func (a Matrix) print() {
 	}
 
 	func main() {
-		a := Matrix{3, 3, [][]int{{1, 2, 3}{4,5,6}{7,8,9}}}
-		b := Matrix{3, 3, [][]int{{1, 2, 3}{4,5,6}{7,8,9}}}
+		a := Matrix{3, 3, [][]int{{1, 2, 3}{4, 5, 6}{7, 8, 9}}}
+		b := Matrix{3, 3, [][]int{{1, 2, 3}{4, 5, 6}{7, 8, 9}}}
 		a.print()
 		b.print()
 		fmt.Println(a.get_rows())
@@ -49,5 +49,7 @@ func (a Matrix) print() {
 		fmt.Println(a.add(b))
 		a.set_entry(3, 7, 9)
 		b.print()
-
 	}
+
+	// example
+	
