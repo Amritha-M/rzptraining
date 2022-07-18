@@ -52,4 +52,4 @@ func (a Matrix) print() {
 	}
 
 	// example test
-	
+
